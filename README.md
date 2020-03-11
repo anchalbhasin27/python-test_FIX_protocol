@@ -20,7 +20,7 @@ EX 2: Simplified rules: <br />
 
 There are 2 scripts.
 
-1st script "generate_fix_mesgs" takes 2 arguments. 
+1st script "generate_fix_msgs" takes 2 arguments. 
 This is a python 2.7 script which generates fake FIX messages.It takes 2 arguments, 
 1st specifies the number of fake messages to generate and the 2nd argument is the name for output file 
 which contains the generated message info,which will be later used for parsing data. <br />
