@@ -20,18 +20,18 @@ EX 2: Simplified rules: <br />
 
 There are 2 scripts.
 
-1st script "generate_fix_data" takes 2 arguments. 
+1st script "generate_fix_mesgs" takes 2 arguments. 
 This is a python 2.7 script which generates fake FIX messages.It takes 2 arguments, 
 1st specifies the number of fake messages to generate and the 2nd argument is the name for output file 
 which contains the generated message info,which will be later used for parsing data. <br />
-format : <python generate_fix_data int "file_name">
+format : <python generate_fix_msgs.py int "file_name">
 
 
-2nd script "parse_fix"
+2nd script "read_fix_msgs"
 This is a python 2.7 script which reads the generated FIX messages,
 by taking 1 argument, the generated file-name from script 1
 and produce various statistics on the trading habits of each clients. <br />
-format : <python parse_fix "file_name">
+format : <python read_fix_msgs.py "file_name">
 
 6 stats have been included : <br />
 stat 1: show the count of stock types<br />
